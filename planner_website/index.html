@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar for Navigation -->
+    <nav class="sidebar">
+      <h2>Planner</h2>
+      <ul>
+        <li><a href="#week">Weekly Calendar</a></li>
+        <li><a href="#month">Monthly Calendar</a></li>
+        <li><a href="#todo">To-Do List</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="calendar.html">Ongoing Calendar</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <section id="week" class="widget">
+        <h3>Weekly Calendar</h3>
+        <!-- Weekly calendar widget here -->
+      </section>
+
+      <section id="month" class="widget">
+        <h3>Monthly Calendar</h3>
+        <!-- Monthly calendar widget here -->
+      </section>
+
+      <section id="todo" class="widget">
+        <h3>To-Do List</h3>
+        <ul class="todo-list">
+          <li><input type="checkbox"> Task 1</li>
+          <li><input type="checkbox"> Task 2</li>
+        </ul>
+        <input type="text" id="new-task" placeholder="Add a new task">
+        <button id="add-task-btn">Add Task</button>
+      </section>
+
+      <section id="gallery" class="widget">
+        <h3>Gallery</h3>
+        <div class="gallery-container">
+          <div class="gallery-slide">
+            <input type="text" placeholder="Add text">
+            <input type="file" accept="image/*">
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

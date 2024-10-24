@@ -1,0 +1,87 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f0e7;
+  color: #4a4a4a;
+}
+
+/* Container and Sidebar Styling */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #dbcbb7;
+  padding: 20px;
+  width: 250px;
+}
+
+.sidebar h2 {
+  color: #5b3e31;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: #5b3e31;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  color: #7b6145;
+}
+
+/* Main Content Styling */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff9f3;
+}
+
+.widget {
+  margin-bottom: 40px;
+}
+
+.widget h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* To-Do List Styling */
+.todo-list {
+  list-style: none;
+}
+
+.todo-list li {
+  margin-bottom: 10px;
+}
+
+/* Gallery Styling */
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-slide {
+  margin-bottom: 10px;
+}
+
+.gallery-slide input[type="file"] {
+  margin-top: 10px;
+}
